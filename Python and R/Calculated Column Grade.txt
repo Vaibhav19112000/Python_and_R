@@ -1,0 +1,13 @@
+def grading(case):
+        if (case>40 and case< 50):
+            return 'Second class'
+        elif(case >=60 and case<80):
+            return 'First Class'
+        elif(case >=80):
+            return 'Distinction'
+        else:
+            return 'Third Class'
+
+
+# creating a new Column 'Grade' on the basis of column 'mark'
+df['Grade'] = list(map(grading, df['mark']))

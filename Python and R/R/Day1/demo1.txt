@@ -1,0 +1,116 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\Users\Shruti>R
+
+R version 4.3.0 (2023-04-21 ucrt) -- "Already Tomorrow"
+Copyright (C) 2023 The R Foundation for Statistical Computing
+Platform: x86_64-w64-mingw32/x64 (64-bit)
+
+R is free software and comes with ABSOLUTELY NO WARRANTY.
+You are welcome to redistribute it under certain conditions.
+Type 'license()' or 'licence()' for distribution details.
+
+  Natural language support but running in an English locale
+
+R is a collaborative project with many contributors.
+Type 'contributors()' for more information and
+'citation()' on how to cite R or R packages in publications.
+
+Type 'demo()' for some demos, 'help()' for on-line help, or
+'help.start()' for an HTML browser interface to help.
+Type 'q()' to quit R.
+
+> a<-45
+> a
+[1] 45
+
+> class(a)
+[1] "numeric"
+
+> a<-3L
+> a
+
+[1] 3
+> class(a)
+[1] "integer"
+> typeof(a)
+[1] "integer"
+> a=34
+> class(a)
+[1] "numeric"
+> typeof(a)
+[1] "double"
+> a<-readline("Enter no1")
+Enter no15
+> b<-readline("Enter no2")
+Enter no23
+> a
+[1] "5"
+> b
+[1] "3"
+> a<-as.integer(a)
+> b<-as.integer(b)
+> a
+[1] 5
+> b
+[1] 3
+> a+b
+[1] 8
+> a-b
+[1] 2
+> a*b
+[1] 15
+> a/b
+[1] 1.666667
+> a%%b
+[1] 2
+> a%/%b
+[1] 1
+> a^b
+[1] 125
+> a<-scan(what=integer())
+1: 1 2 3 4 5
+6: 6 7 8 9 10
+11:
+Read 10 items
+> a
+ [1]  1  2  3  4  5  6  7  8  9 10
+> class(a)
+[1] "integer"
+> typeof(a)
+[1] "integer"
+> sum(a)
+[1] 55
+> min(a)
+[1] 1
+> max(a)
+[1] 10
+> mean(a)
+[1] 5.5
+> name<-readline("Enter Name")
+Enter NameSudha
+> paste(name)
+[1] "Sudha"
+> q()
+Save workspace image? [y/n/c]: y
+
+> R.version
+               _
+platform       x86_64-w64-mingw32
+arch           x86_64
+os             mingw32
+crt            ucrt
+system         x86_64, mingw32
+status
+major          4
+minor          3.0
+year           2023
+month          04
+day            21
+svn rev        84292
+language       R
+version.string R version 4.3.0 (2023-04-21 ucrt)
+nickname       Already Tomorrow
+> q()
+Save workspace image? [y/n/c]: n

@@ -1,0 +1,13 @@
+27 April 2023
+
+1.Write a program to print the first 5 prime numbers using while loop and make sure to not use the for loop?
+
+2.Write a program to print the first 3 perfect numbers using while loop and make sure to not use the for loop?
+
+
+3 May 2023
+
+Q1. Define a simple "spelling correction" function correct () that takes a string and sees to it that:
+1. two or more occurrences of the space character is compressed into one, and
+2. inserts an extra space after a period if the period is directly followed by a letter.
+e.g. correct ("This is very  funny  and cool.Indeed!") should return "This is very funny and cool. Indeed!"
